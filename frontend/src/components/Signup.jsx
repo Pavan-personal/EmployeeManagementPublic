@@ -22,7 +22,7 @@ function Signup() {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:4500/admin/signup",
+        "https://employee-management-system-zeta-eight.vercel.app/admin/signup",
         formData
       );
       if (response.data.success) {
